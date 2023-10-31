@@ -789,12 +789,16 @@ function process_plane()
     ["Alyrian Underworld"] = "ug",
     ["Great Alyrian Underground"] = "ug",
     ["Faerie Plane"] = "fp",
+    ["Faerie Plane Wilderness"] = "fp",
     ["IEN Ivory Tower"] = "social",
     ["Lasler Wilderness"] = "lasler",
     ["Sigil Underground"] = "sug",
     ["Verity Isle"] = "verity",
+    
   }
 
+  -- plane = gmcpval("coord.name")
+  -- print("Mapper test area:" .. gmcpval("zone"))
   plane = gmcpval("zone")
 
   if (plane ~= oldplane) then
